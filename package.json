@@ -1,6 +1,6 @@
 {
   "name": "nuxt3-starter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Nuxt 3 template and boilerplate with a lot of useful features. Nuxt 3 + Tailwindcss + Nuxt Layer",
   "author": "Renato Nabinger",
   "private": false,

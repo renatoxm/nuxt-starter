@@ -93,7 +93,7 @@ const email = ref('')
 const message = ref('')
 const subject = ref('') // if any value received in this field, form submission will be ignored.
 const accessKey = config.public.access_key // stored in your .env file, get your access key from https://www.staticforms.xyz
-const realsubject = 'Contact form from renato.tier1devs.com'
+const realsubject = 'Contact form'
 const replyTo = '@' // this will set replyTo of email to email address entered in the form
 
 const handleAlertClosed = () => {
