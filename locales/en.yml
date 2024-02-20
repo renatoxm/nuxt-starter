@@ -4,6 +4,16 @@ components:
   theme_switcher:
     theme: theme
     change_theme: change theme
+  contact:
+    title: Got a project? Let's chat! Fill out the form and let's make it happen.
+    submit: Submit
+    name: Name
+    email: Email
+    message: Message
+    error_title: Error!
+    success_title: Success!
+    error_message: An error occurred while submitting the form. Please try again later.
+    success_message: Thanks for reaching out. I'll take a look at it and get back to you shortly.
 pages:
   index:
     title: Nuxt Starter Project
@@ -19,6 +29,10 @@ pages:
     nav: post
     title: post
     description: this is a post page
+  contact:
+    nav: contact
+    title: contact
+    description: This is a simple form submitted via https://www.staticforms.xyz/, grab your key there and add it to your .env file (see .env.example)
   test:
     nav: test
     title: testing

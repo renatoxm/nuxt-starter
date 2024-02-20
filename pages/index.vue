@@ -29,7 +29,7 @@ const copyBash = () => {
         <div class="flex-1 md:w-5/8 flex flex-col z-10">
           <div class="max-w-2xl">
             <h1
-              class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl"
+              class="text-3xl md:text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100"
             >
               {{ t('pages.index.title') }}
             </h1>

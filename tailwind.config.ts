@@ -105,6 +105,7 @@ export default <Partial<Config>>{
       },
     },
   },
+  plugins: [require('@tailwindcss/typography')],
   shortcuts: {
     'light-img': 'block dark:hidden',
     'dark-img': 'hidden dark:block',

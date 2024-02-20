@@ -33,6 +33,11 @@ const menus = computed(
         to: { name: 'setting' },
       },
       {
+        type: 'link',
+        title: t('pages.contact.nav'),
+        to: { name: 'contact' },
+      },
+      {
         type: 'button',
         title: t('pages.dashboard.nav'),
         to: { name: 'dashboard' },
@@ -60,7 +65,7 @@ const { t } = useLang()
   </div>
 
   <header
-    class="flex fixed backdrop-filter backdrop-blur-md top-6 z-40 w-full h-10 flex-none transition-colors duration-300 lg:z-50 border-b border-gray-950/10 dark:border-gray-50/[0.2] bg-white/[0.5] dark:bg-zinc-900/[0.5]"
+    class="flex fixed backdrop-filter backdrop-blur-md top-6 z-40 w-full h-14 flex-none transition-colors duration-300 lg:z-50 border-b border-gray-950/10 dark:border-gray-50/[0.2] bg-white/[0.5] dark:bg-zinc-900/[0.5]"
   >
     <!-- content -->
     <div
@@ -71,7 +76,7 @@ const { t } = useLang()
         <slot name="title">
           <NuxtLink
             to="/"
-            class="font-bold text-lg text-zinc-950 dark:text-white"
+            class="font-bold text-sm md:text-lg text-zinc-950 dark:text-white"
           >
             <Icon
               name="simple-icons:nuxtdotjs"

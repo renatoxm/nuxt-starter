@@ -20,6 +20,8 @@ const props = defineProps({
   },
 })
 
+const emit = defineEmits(['closed'])
+
 // styles
 const styles = reactive<{
   [key: string]: string
@@ -53,6 +55,7 @@ const selectedTextStyle = computed(() => textStyles[selectedType.value])
 
 // actions
 const close = () => {
+  emit('closed')
   isDestroyed.value = true
 }
 </script>
@@ -80,12 +83,12 @@ const close = () => {
             />
             <Icon
               v-if="selectedType === 'danger'"
-              name="icon-clarity:times-circle-solid"
+              name="clarity:times-circle-solid"
               :class="`text-2xl ${selectedTextStyle}`"
             />
             <Icon
               v-if="selectedType === 'warning'"
-              name="icon-bi:exclamation-circle-fill"
+              name="bi:exclamation-circle-fill"
               :class="`text-2xl ${selectedTextStyle}`"
             />
           </slot>

@@ -4,6 +4,16 @@ components:
   theme_switcher:
     theme: tema
     change_theme: ganti tema
+  contact:
+    title: Punya proyek? Ayo kita bicara! Isi formulir dan mari kita wujudkan.
+    submit: Kirim
+    name: Nama
+    email: Email
+    message: Pesan
+    error_title: Kesalahan!
+    success_title: Sukses!
+    error_message: Terjadi kesalahan saat mengirimkan formulir. Silakan coba lagi nanti.
+    success_message: Terima kasih telah menghubungi. Saya akan segera meninjau dan membalas segera.
 pages:
   '404':
     title: halaman tidak ditemukan
@@ -19,6 +29,10 @@ pages:
     nav: pos
     title: pos
     description: ini adalah halaman posting
+  contact:
+    nav: kontak
+    title: kontak
+    description: Ini adalah formulir sederhana yang dikirim melalui https://www.staticforms.xyz/. Ambil kunci Anda di sana dan tambahkan ke file .env Anda (lihat .env.example).
   test:
     nav: uji
     title: pengujian

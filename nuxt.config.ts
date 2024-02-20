@@ -15,6 +15,12 @@ export default defineNuxtConfig({
     layoutTransition: { name: 'layout', mode: 'out-in' },
   },
 
+  runtimeConfig: {
+    public: {
+      access_key: process.env.ACCESS_KEY,
+    },
+  },
+
   // typescripts
   // todo: feat/strict-type-check
   // typescript: {

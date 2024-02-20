@@ -16,6 +16,7 @@ A Nuxt 3 starter template or boilerplate with a lot of useful features. and inte
 - [x] 💻 [Consola](https://github.com/unjs/consola)
 - [x] 🚀 [Release It](https://github.com/release-it/)
 - [x] 🌎 [Vue I18n Internationalization](https://vue-i18n.intlify.dev/)
+- [x] ✉️ Contact form
 - [x] Configurable Theme (Easy to change)
   - [x] Primary Colors
   - [x] Font
@@ -56,6 +57,7 @@ A Nuxt 3 starter template or boilerplate with a lot of useful features. and inte
     - [Custom Workspace Snippets](#custom-workspace-snippets)
     - [Styles](#styles)
     - [Localization](#localization)
+    - [Contact Form](#contact-form)
   - [License](#license)
 
 ## Quick Start
@@ -98,6 +100,7 @@ For detail information, go here [Getting Started](https://nuxt-starter-renatoxm.
       - [x] Section Title
 - [x] Dashboard Layout
   - [x] Sidebar
+- [x] Contact Form
 - [ ] Modal
 
 ## Notes
@@ -166,6 +169,15 @@ locales: {
         flag: '🇺🇸',
       },
       ... add other locales
+```
+
+### Contact Form
+
+In order to use the contact form component `LayoutPageContact`, you need to create a `.env` file and add your key to it. To get the access key, visit [Static Forms Website](https://www.staticforms.xyz) and follow the instructions. Then paste it in place of `YOR_ACCESS_KEY` like bellow.
+
+```bash
+# Contact form component your access key. Get yours here https://www.staticforms.xyz
+ACCESS_KEY=YOUR_ACCESS_KEY
 ```
 
 ## License

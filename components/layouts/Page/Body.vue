@@ -1,13 +1,7 @@
 <template>
-  <!-- <div
-    class="flex w-full pt-[64px]"
-    :style="{ 'min-height': 'var(--layout-page-content-min-height)' }"
-  > -->
-  <!-- <div
-    class="relative flex-1 flex-col mx-auto max-w-8xl w-full h-full"
-    :style="{ 'min-height': 'var(--layout-page-content-min-height)' }"
-  > -->
-  <div class="relative flex-1 flex flex-col mx-auto max-w-8xl w-full h-full">
+  <div
+    class="relative flex-1 flex flex-col mx-auto max-w-8xl w-full h-full px-4 md:px-none"
+  >
     <slot />
   </div>
 </template>

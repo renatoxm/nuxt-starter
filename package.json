@@ -1,6 +1,6 @@
 {
   "name": "nuxt3-starter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A Nuxt 3 template and boilerplate with a lot of useful features. Nuxt 3 + Tailwindcss + Nuxt Layer",
   "author": "Renato Nabinger",
   "private": false,
@@ -26,8 +26,10 @@
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "@pinia/nuxt": "^0.5.1",
+    "@tailwindcss/typography": "^0.5.10",
     "@vueuse/core": "^10.7.2",
     "@vueuse/nuxt": "^10.7.2",
+    "axios": "^1.6.7",
     "nuxt": "^3.10.2",
     "nuxt-headlessui": "^1.1.5",
     "nuxt-icon": "^0.6.8",

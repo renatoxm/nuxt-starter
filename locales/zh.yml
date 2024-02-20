@@ -4,6 +4,16 @@ components:
   theme_switcher:
     theme: 主题
     change_theme: 切换主题
+  contact:
+    title: 有项目吗？我们聊聊吧！填写表格，让我们实现它。
+    submit: 提交
+    name: 姓名
+    email: 电子邮件
+    message: 消息
+    error_title: 错误！
+    success_title: 成功！
+    error_message: 提交表单时出现错误。请稍后再试。
+    success_message: 感谢您的来信。我会尽快查看并回复您。
 pages:
   index:
     title: Nuxt 初始项目
@@ -19,6 +29,10 @@ pages:
     nav: 文章
     title: 文章
     description: 这是一个文章页面
+  contact:
+    nav: 联系
+    title: 联系
+    description: 这是通过 https://www.staticforms.xyz/ 提交的简单表单。在那里获取您的密钥并将其添加到您的 .env 文件中（参见 .env.example)
   test:
     nav: 测试
     title: 测试

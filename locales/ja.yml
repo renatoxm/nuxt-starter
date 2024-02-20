@@ -4,6 +4,16 @@ components:
   theme_switcher:
     theme: テーマ
     change_theme: テーマを変更
+  contact:
+    title: プロジェクトがありますか？話し合いましょう！フォームに記入して、実現させましょう。
+    submit: 送信
+    name: 名前
+    email: メールアドレス
+    message: メッセージ
+    error_title: エラー！
+    success_title: 成功！
+    error_message: フォームの送信中にエラーが発生しました。後でもう一度お試しください。
+    success_message: お問い合わせいただきありがとうございます。すぐに確認し、ご連絡いたします。
 pages:
   '404':
     title: ページが見つかりません
@@ -19,6 +29,10 @@ pages:
     nav: 役職
     title: 役職
     description: これは投稿ページです
+  contact:
+    nav: お問い合わせ
+    title: お問い合わせ
+    description: これは https://www.staticforms.xyz/ から送信されたシンプルなフォームです。そこでキーを取得し、.env ファイルに追加してください（.env.example を参照）。
   test:
     nav: テスト
     title: テスト

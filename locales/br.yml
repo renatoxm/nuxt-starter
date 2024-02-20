@@ -4,6 +4,16 @@ components:
   theme_switcher:
     theme: tema
     change_theme: alterar tema
+  contact:
+    title: Tem um projeto? Vamos conversar! Preencha o formulário e vamos torná-lo realidade.
+    submit: Enviar
+    name: Nome
+    email: E-mail
+    message: Mensagem
+    error_title: Erro!
+    success_title: Sucesso!
+    error_message: Ocorreu um erro ao enviar o formulário. Por favor, tente novamente mais tarde.
+    success_message: Obrigado por entrar em contato. Vou dar uma olhada e retornarei em breve.
 pages:
   index:
     title: Projeto Inicial Nuxt
@@ -19,6 +29,10 @@ pages:
     nav: post
     title: post
     description: esta é uma página de post
+  contact:
+    nav: contato
+    title: contato
+    description: Este é um formulário simples enviado via https://www.staticforms.xyz/. Pegue sua chave lá e adicione-a ao seu arquivo .env (consulte .env.example).
   test:
     nav: teste
     title: testando
